@@ -1,0 +1,15 @@
+{
+  "name": "worker-version-pull",
+  "version": "1.0.0",
+  "description": "Download any Cloudflare Worker version as a folder Wrangler uploads again, byte for byte.",
+  "license": "MIT",
+  "type": "module",
+  "bin": { "worker-version-pull": "./worker-version-pull.mjs" },
+  "exports": "./worker-version-pull.mjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
